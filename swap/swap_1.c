@@ -1,7 +1,6 @@
 //WAP to Swap two variables (with using third variable).
 
 #include<stdio.h>
-#include<conio.h>
 
 main()
 {
