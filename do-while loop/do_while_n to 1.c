@@ -8,7 +8,6 @@ int main()
 	
 	printf("Enter the value of n : ");
 	scanf("%d",&n);
-
 	x=n;
 
 	do
