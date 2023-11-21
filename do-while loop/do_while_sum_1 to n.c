@@ -11,7 +11,7 @@ int main()
 	
 	do
 	{
-		sum = sum +x;
+		sum = sum + x;
 		x++;
 	}while(x<=n);
 	
