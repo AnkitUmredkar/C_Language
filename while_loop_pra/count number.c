@@ -10,7 +10,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &number);
 
-    while (number >= 9) 
+    while (number > 9) 
 	{
         number = number / 10; 
         count++;     
