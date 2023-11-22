@@ -5,13 +5,13 @@
 int main()
 {
 
-	int f_year,l_year,total,a;
+	int fy,ly,total,a;
 	printf("Enter year :");
-	scanf("%d",&f_year);
+	scanf("%d",&fy);
 	printf("year last :");
-	scanf("%d",&l_year);
+	scanf("%d",&ly);
 	
-	total=l_year-f_year;
+	total=ly-fy;
 	a=(total/4) + 1;
 	printf("The number of leap year is : %d",a);
 	
