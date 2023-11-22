@@ -9,7 +9,7 @@ int main()
 	printf("Enter the value of n : ");
 	scanf("%d",&n);
 	
-	if(a%2!=0 && a%3!=0 && a%5!=0 && a%7!=0 && a%11!=0 ||(a==2 || a==3 || a==5 || a==7))
+	if(n%2!=0 && n%3!=0 && n%5!=0 && n%7!=0 && n%11!=0 ||(n==2 || n==3 || n==5 || n==7))
 	{
 		printf("prime");
 	}
