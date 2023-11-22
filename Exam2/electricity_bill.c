@@ -29,7 +29,7 @@ int main()
 		amt = ((unit - 100)*1.5) + ((50 * 0.50) + (50 * 1));
 		amt = amt +(amt * 0.20);
 	}
-	else if(unit>=150)
+	else if(unit>150)
 	{
 		amt = ((unit-150)*2) + ((50 * 0.50) + (50 * 1) + (50 * 1.5));
 		amt = amt +(amt * 0.20);
