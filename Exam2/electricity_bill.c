@@ -21,7 +21,7 @@ int main()
 	}
 	else if(unit>=51 && unit<=100)
 	{
-		amt = ((unit - 50)*1) + ((50 * 0.50));
+		amt = ((unit - 50)*1) + (50 * 0.50);
 		amt = amt + (amt * 0.20);
 	}
 	else if(unit>=101 && unit<=150)
