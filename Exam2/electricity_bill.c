@@ -14,7 +14,7 @@ int main()
 //	100 to 150 = 1.5
 //	150 to up = 2
 	
-	if(unit>=0 && unit<=50)
+	if(unit>0 && unit<=50)
 	{
 		amt = unit * 0.50;
 		amt = amt + (amt * 0.20);
