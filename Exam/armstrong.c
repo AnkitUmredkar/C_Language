@@ -1,4 +1,4 @@
-//palindrom number or not using printf only ex.153(1^3 + 5^3 + 3^3 == 153)
+//armstrong number or not using printf only ex.153(1^3 + 5^3 + 3^3 == 153)
 
 #include<stdio.h>
 
@@ -18,7 +18,7 @@ int main()
 	
 	sum = (a*a*a) + (b*b*b) + (y*y*y);
 	
-	printf("The value is palindrom or not : %d", sum==i); 
+	printf("The value is armstrong or not : %d", sum==i); 
 	
 	return 0;
 }
