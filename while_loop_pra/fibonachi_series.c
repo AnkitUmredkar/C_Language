@@ -9,7 +9,7 @@ int main()
 	printf("Enter the limit of series : ");
 	scanf("%d",&n);
 	
-	while(x<=n)
+	while(x<n)
 	{
 		printf("%d ",first);
 		add = first + second;
