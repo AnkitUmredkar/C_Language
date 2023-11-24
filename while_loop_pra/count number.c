@@ -1,7 +1,6 @@
 //3. Write C program to count number of digits in a number.
 
 #include<stdio.h>
-#include<conio.h>
 
 int main() 
 {
