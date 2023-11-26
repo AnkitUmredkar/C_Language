@@ -2,7 +2,6 @@
 
 #include<stdio.h>
 
-
 main()
 {
 	float area,r,p=3.14;
