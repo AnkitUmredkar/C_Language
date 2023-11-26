@@ -1,7 +1,7 @@
 //1. WAP to Find area of circle.
 
 #include<stdio.h>
-#include<coni
+#include<con
 
 main()
 {
