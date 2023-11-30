@@ -1,4 +1,4 @@
-#in
+#i
 
 int main()
 {
