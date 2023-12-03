@@ -6,7 +6,7 @@
 //*       *
 //*       *
 
-#include<stdio
+#include<stdi
 
 int main()
 {
