@@ -6,7 +6,7 @@
 //*       *
 //*       *
 
-#includ
+#include
 
 int main()
 {
