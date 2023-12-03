@@ -6,7 +6,7 @@
 //*       *
 //*       *
 
-#inc
+#incl
 
 int main()
 {
