@@ -6,7 +6,7 @@
 //*       *
 //*       *
 
-#include<st
+#include<std
 
 int main()
 {
