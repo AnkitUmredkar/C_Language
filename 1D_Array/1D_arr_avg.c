@@ -1,6 +1,6 @@
 //3. WAP to find the average of the 1D array.
 
-#include<
+#include<stdio.h>
 
 int main()
 {
