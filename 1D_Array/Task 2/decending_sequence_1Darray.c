@@ -32,7 +32,7 @@ int main()
 		}
 	}
 	
-	printf("\nThe acending sequence of array is : ");
+	printf("\nThe decending sequence of array is : ");
 	
 	for(i=0; i<n; i++)
 	{
