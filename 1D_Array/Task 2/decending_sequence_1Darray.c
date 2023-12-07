@@ -1,4 +1,4 @@
-//6 wap to acending order in 1d array.
+//7 wap to decending order in 1d array.
 
 #include<stdio.h>
 
