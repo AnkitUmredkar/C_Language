@@ -41,7 +41,7 @@ int main()
 		}
 	}
 	
-	printf("\nThe decending sequence of array is : ");
+	printf("\nThe ascending sequence of array is : ");
 	
 	for(i=0; i<n; i++)
 	{
