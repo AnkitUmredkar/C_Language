@@ -12,7 +12,7 @@ int main()
 	
 	for(i=0; i<=100; i++)
 	{
-		if(str[0]>=97 && str[0]<=122)
+		if(str[0]>='a' && str[0]<='z')
 		{
 			str[0] = str[0] - 32;
 		}
