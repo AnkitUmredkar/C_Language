@@ -10,7 +10,7 @@ int main()
 	printf("Enter the string you want : ");
 	gets(str);
 	
-	if(str[0]>=97 && str[0]<=122)
+	if(str[0]>='a' && str[0]<='z')
 	{
 		str[0] = str[0] - 32;
 	}
@@ -19,18 +19,18 @@ int main()
 	{
 		if(str[i-1] == 32)
 		{
-			if(str[i]>=97 && str[i]<=122)
+			if(str[i]>='a' && str[i]<='z')
 			{
 				str[i] = str[i] - 32;
 			}
 		}
-		else if(str[i]>=65 && str[i]<=97)
+		else if(str[i]>='A' && str[i]<='Z')
 		{
 			str[i] = str[i] + 32;
 		}
 		else if(str[i] == 32)
 		{
-			if(str[i]>=97 && str[i]<=122)
+			if(str[i]>='a' && str[i]<='z')
 			{
 				str[i+1] = str[i+1] - 32;
 			}
