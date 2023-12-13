@@ -5,18 +5,19 @@
 int main()
 {
 	char str[100];
-	int i;
+	int i=0;
 	
 	printf("Enter the string you want : ");
 	gets(str);
 	
-	for(i=0; i<=100; i++)
+	if(str[0]>='a' && str[0]<='z')
 	{
-		if(str[0]>='a' && str[0]<='z')
-		{
-			str[0] = str[0] - 32;
-		}
-		else if(i != 0 && str[i]>=65 && str[i]<=90)
+		str[0] = str[0] - 32;
+	}
+	
+	for(i=1; i<=100; i++)
+	{
+		if(str[i]>='A' && str[i]<='Z')
 		{
 			str[i] = str[i] + 32;
 		}
