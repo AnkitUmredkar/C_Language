@@ -40,7 +40,7 @@ int main()
 		}
 		if(a[i] != 0)
 		{
-			printf("%d --> %d\n",a[i],freq);
+			printf(" %d --> %d\n",a[i],freq);
 		}
 		freq=1;
 	}
