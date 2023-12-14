@@ -1,4 +1,4 @@
-//wap to count frequency of each charcter in a string.
+//1.wap to count frequency of each charcter in a string.
 
 #include<stdio.h>
 
