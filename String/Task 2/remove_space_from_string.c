@@ -6,25 +6,30 @@
 int main()
 {
 	char a[50];
-	int i=0,j,k;
+	int i,j,len,check=0;
 	
 	printf("Enter the string : ");
 	gets(a);
 		
-	j = strlen(a);
+	len = strlen(a);
 	
-	for(i=0; i<j; i++)
+	for(i=0; i<len; i++)
 	{
-		if(a[i] == ' ')
+		for(j=0; j<len; j++)
 		{
-			for(k=i; k<j; k++) 
+			if(a[j] == ' ')
 			{
-				a[k] = a[k+1];
+				check = 1;
 			}
-			i--;
+			if(check == 1)
+			{
+				a[j] = a[j+1];
+			}
 		}
+		check = 0;
 	}
-	
+		
+	printf("\nAfter remove all spaces in string : ");
 	printf("%s",a);
 
 	
