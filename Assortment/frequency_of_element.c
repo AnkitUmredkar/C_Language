@@ -4,22 +4,47 @@
 
 int main()
 {
-	int n,i,j,c=0;
+	int l,sum,num;
 	
-	printf("Enter the size of an array : ");
-	scanf("%d",&n);
+	printf("Enter The Value Of Size 1D Array :");
+	scanf("%d",&l);
 	
-	int a[n],freq[i];
+	int a[l],b[l+50];
 	
-	printf("\nEnter the elements of an array\n");
+	int i,j,check=0,count;
 	
-	for(i=0; i<n; i++)
+	for(i=0; i<l; i++)
 	{
-		printf("Enter the value of a[%d] : ",i);
+		printf("Enter The Value Of Array : ");
 		scanf("%d",&a[i]);
-		freq[i] = -1;
+		b[i]=-1;
+	}
+	int k;
+	for(i=0; i<l; i++)
+	{
+		count=1;
+		for(k=i+1; k<l; k++)
+		{
+			if(a[i]==a[k])
+			{
+				count++;
+				b[k]=0;
+			}
+		}
+		if(b[i]!=0)
+		{
+			b[i]=count;
+		}
 	}
 	
+	printf("\n");
 	
-	return 0;
+	for(i=0; i<l; i++)
+	{
+		if(b[i]!=0)
+		{
+			printf("%d --> %d\n",a[i],b[i]);
+		}
+	}
+        return 0;
 }
