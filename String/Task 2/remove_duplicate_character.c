@@ -13,23 +13,22 @@ int main()
     
 	len = strlen(a);
 	
+	printf("\nAfter remove all duplicate charcters : ");
+	
 	for(i=0; i<len; i++)
 	{
 		for(j=i+1; j<len; j++)
 		{
 			if(a[i] == a[j])
 			{
-				for(k=j; k<len; k++)
-				{
-					a[k] = a[k+1];
-				}
+				a[j] = 0;
 			}
 		}
+		if(a[i] != 0)
+		{
+			printf("%c",a[i]);
+		}
 	}
-	
-	
-	printf("\nAfter remove all duplicate charcters : \n%s",a);
 
-	
  	return 0;
 }
