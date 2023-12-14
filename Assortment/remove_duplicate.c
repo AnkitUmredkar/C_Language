@@ -4,14 +4,14 @@
 
 int main()
 {
-	int i,n,j,k;
+	int i,j,freq=1,n;
 	
 	printf("Enter the size of array : ");
 	scanf("%d",&n);
 	
 	int a[n];
 	
-	printf("\nEnter the elements of array : \n");
+	printf("\nEnter the elemnets of an array : \n");
 	
 	for(i=0; i<n; i++)
 	{
@@ -26,27 +26,22 @@ int main()
 		printf("%d ",a[i]);
 	}
 	
+	printf("\n\nAfter remove all duplicate elements : ");
+	
 	for(i=0; i<n; i++)
 	{
 		for(j=i+1; j<n; j++)
 		{
 			if(a[i] == a[j])
 			{
-				for(k=j; k<n; k++)
-				{
-					a[k] = a[k+1];
-				}
-				n--;
-				j--;
+				a[j] = 0;
 			}
 		}
-	}
-	
-	printf("\n\nThe array after remove duplicate element : ");
-	
-	for(i=0; i<n; i++)
-	{
-		printf("%d ",a[i]);
+		if(a[i] != 0)
+		{
+			printf("%d ",a[i]);
+		}
+		freq=1;
 	}
 	
 	return 0;
