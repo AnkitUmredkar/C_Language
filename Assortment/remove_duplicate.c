@@ -4,7 +4,7 @@
 
 int main()
 {
-	int i,j,freq=1,n;
+	int i,j,n;
 	
 	printf("Enter the size of array : ");
 	scanf("%d",&n);
@@ -41,7 +41,6 @@ int main()
 		{
 			printf("%d ",a[i]);
 		}
-		freq=1;
 	}
 	
 	return 0;
