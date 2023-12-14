@@ -1,4 +1,4 @@
-//2. Write a c program to check whether a string is	palindrom or not.
+//2. Write a c program to check whether a string is palindrom or not.
 
 #include<stdio.h>
 #include<string.h>
