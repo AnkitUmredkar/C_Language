@@ -1,6 +1,7 @@
 //1.wap to count frequency of each charcter in a string.
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
