@@ -15,7 +15,7 @@ int main()
 	
 	for(i=0; i<len; i++)
 	{
-		if(a[i] >= '1' && a[i] <= '9')
+		if(a[i] >= '0' && a[i] <= '9')
 		{
 			digit++;
 		}
