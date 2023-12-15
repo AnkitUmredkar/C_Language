@@ -1,16 +1,19 @@
 //1. WAP to convert given string in lowercase.
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
 	char a[100];
-	int len = 0,i;
+	int len,i;
 	
 	printf("Enter The string you want in uppercase : ");
 	gets(a);
 	
-	for(i=0; i<100; i++)
+	len = strlen(a);
+	
+	for(i=0; i<len; i++)
 	{
 		if(a[i]>='A' && a[i]<='Z')
 		{
