@@ -4,7 +4,7 @@
 
 int main()
 {
-	int i,n,j,temp,target,c=0;
+	int i,n,j,temp,target;
 	
 	printf("Enter the size of array : ");
 	scanf("%d",&n);
@@ -37,17 +37,8 @@ int main()
 			{
 				printf("(%d , %d) ",a[i],a[j]);
 			}
-			else
-			{
-				c = 1;
-			}
 		}
-		c = 0;
 	}
-	
-	if(c==0)
-	{
-		printf("\nThe pair is not foundable");
-	}
+
 	return 0;
 }
