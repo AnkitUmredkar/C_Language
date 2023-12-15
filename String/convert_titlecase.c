@@ -1,6 +1,7 @@
 //6. WAP to convert given string in Title Case.
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
@@ -39,7 +40,7 @@ int main()
 		}
 	}
 	
-	printf("\nThe string in Toggal Case is : %s",str);
+	printf("\nThe string in title Case is : %s",str);
 	
  	return 0;
 }
