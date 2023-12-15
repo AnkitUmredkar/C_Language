@@ -6,7 +6,7 @@
 int main()
 {
 	char a[50],b[50];
-	int i,len,check=0;
+	int i,len;
 	
 	printf("Enter the string : ");
 	gets(a);
