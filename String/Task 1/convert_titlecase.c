@@ -40,7 +40,7 @@ int main()
 		}
 	}
 	
-	printf("\nThe string in title Case is : %s",str);
+	printf("\nThe string in Title Case is : %s",str);
 	
  	return 0;
 }
