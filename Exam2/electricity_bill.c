@@ -4,7 +4,7 @@
 
 int main()
 {
-	int unit,total,amt;
+	int unit,amt;
 	
 	printf("Enter the unit : ");
 	scanf("%d",&unit);
