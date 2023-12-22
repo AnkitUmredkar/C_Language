@@ -20,7 +20,7 @@ main()
 	for(i=0; i<=l-1; i++)
 	{
 		o--;
-		s=a[n];
+		s=a[o];
 		printf("%d ",s);
 	}
 }
