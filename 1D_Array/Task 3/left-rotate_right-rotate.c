@@ -1,26 +1,37 @@
-// 4. Write a C program to left-rotate and right-rotate an array without using another array.
+//4. Write a C program to left-rotate and right-rotate an array without using another array.
 
 #include<stdio.h>
-#include<conio.h>
 
-main()
+int main()
 {
-	int l;
-	printf("Enter The Value Of Size 1D Array :");
-	scanf("%d",&l);
-	int i,j,s=0;
-	int a[l];
-	for(i=0; i<l; i++)
+	int n,i,c=0;
+	
+	printf("Enter the size of an first array : ");
+	scanf("%d",&n);
+	
+	c=n;
+	int a[n];
+
+	for(i=0; i<n; i++)
 	{
-		printf("Enter The Value Array[%d] : ",i);
 		scanf("%d",&a[i]);
 	}
-	printf("\n");
-	int n,o=l;
-	for(i=0; i<=l-1; i++)
+	
+	printf("\nThe array is : ");
+	
+	for(i=0; i<n; i++)
 	{
-		o--;
-		s=a[o];
-		printf("%d ",s);
+		printf("%d ",a[i]);
 	}
+
+	printf("\nAfter the rotate array : ");
+	
+	for(i=0; i<n; i++)
+	{
+		c--;
+		printf("%d ",a[c]);
+	}
+
+	
+ 	return 0;
 }
