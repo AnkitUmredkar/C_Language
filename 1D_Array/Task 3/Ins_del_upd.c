@@ -31,23 +31,20 @@ int main()
 	
 	for(i=0; i<n; i++)
 	{
-		for(j=0; j<n; j++)
+		if(a[i] == target)
 		{
-			if(a[j] == target)
+			for(j=i+1; j<n; j++)
 			{
-				check = 1;
-			}
-			if(check == 1)
-			{
-				a[j] = a[j+1];
-			}
+				a[j-1] = a[j];
+			}	
+			i--;
+			n--;
 		}
-		check = 0;
 	}
 	
 	printf("\n\nAfter removing target value, The array is : ");
 	
-	for(i=0; i<n-1; i++)
+	for(i=0; i<n; i++)
 	{
 		printf("%d ",a[i]);
 	}
