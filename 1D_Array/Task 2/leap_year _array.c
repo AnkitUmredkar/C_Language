@@ -30,25 +30,5 @@ int main()
 	{
 		printf("%d ",leapyear[i]);
 	}
-
-//	total = end - start;
-//	year = (total/4) + 1;
-//
-//	int a[year];
-//	
-//	for(i=start; i<end; i++)
-//	{
-//		if(i % 4 == 0)
-//		{
-//			a[x] = i;
-//			x++;
-//		}
-//	}
-//
-//	for(i=0; i<x; i++)
-//	{
-//		printf("%d ",a[i]);
-//	}
-
 	return 0;
 }
