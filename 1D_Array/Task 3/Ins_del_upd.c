@@ -4,7 +4,7 @@
 
 int main()
 {	
-	int n,i,j,target,check=0;
+	int n,i,j,target;
 	
 	printf("Enter the size of array : ");
 	scanf("%d",&n);
