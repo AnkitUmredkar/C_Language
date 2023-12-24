@@ -1,7 +1,7 @@
 //password valid or not
 
 #include<stdio.h>
-#include<string.>
+#include<string.h>
 
 int main()
 {
