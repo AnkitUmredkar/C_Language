@@ -29,7 +29,7 @@ int main()
  	
  	printf("If you want to stop calc then press : 0, in operator input\n");
  	
- 	st:
+ 	start:
  	if(op!='0')
  	{
  			
@@ -40,7 +40,7 @@ int main()
 			
 			if(op=='0')
 			{
-			 	goto st;
+			 	goto start;
 			}
 			
 			printf("Enter the first value a : ");
