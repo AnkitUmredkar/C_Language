@@ -30,7 +30,7 @@ int main()
  	printf("If you want to stop calc then press : 0, in operator input\n");
  	
  	start:
- 	if(op ! ='0')
+ 	if(op !=  '0')
  	{
  			
 		while(1)
