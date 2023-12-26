@@ -14,7 +14,7 @@ int main()
 	len = strlen(a);
 	l= len - 10;
 	
-	if(len>=6 && len<=30)
+	if(len>=11 && len<=30)
 	{
 		check=0;
 		for(i=0; i<len; i++)
@@ -69,7 +69,7 @@ int main()
 	}
 	else
 	{
-		printf("Enter the gmail which length between 6 to 30!");
+		printf("Enter gmail in this format : ankitumredkar77@gmail.com ");
 		goto start;
 	}          
 
