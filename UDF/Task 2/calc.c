@@ -30,7 +30,7 @@ int main()
  	printf("If you want to stop calc then press : 0, in operator input\n");
  	
  	start:
- 	if(op!='0')
+ 	if(op ! ='0')
  	{
  			
 		while(1)
@@ -38,7 +38,7 @@ int main()
 			printf("\n\nEnter the operator(+,-,*,/) : ");
 			scanf(" %c",&op);
 			
-			if(op=='0')
+			if(op == '0')
 			{
 			 	goto start;
 			}
