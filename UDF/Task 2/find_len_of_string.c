@@ -9,7 +9,7 @@ int findlength(char a[])
 	
 	len = strlen(a);
 	
-	printf("\nThe length of string is : %d",len);
+	return len;
 }
 
 int main()
@@ -20,7 +20,7 @@ int main()
  	printf("Enter the string : ");
  	gets(a);
  	
- 	findlength(a);
+ 	printf("\nThe length of string is : %d",findlength(a));
  	
  	return 0;
 }
