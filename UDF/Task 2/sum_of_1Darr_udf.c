@@ -1,7 +1,5 @@
 //1 Write a Program to find the sum of all 1D Array elements by passing an array as an argument using UDF.
 
-//2 Write a Program to find the sum of all 1D Array elements by passing an array as an argument using UDF
-
 #include<stdio.h>
 
 int sum(int a[],int n)
