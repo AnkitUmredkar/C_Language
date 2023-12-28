@@ -20,9 +20,6 @@ void division(float a,float b)
 	printf("%.2f / %.2f = %.2f",a,b,a/b);
 }
 
-	
-	
-
 int main()
 {
  	int op;
@@ -34,39 +31,40 @@ int main()
  	printf("Press 4 for /\n");
  	printf("Press 0 for the exit\n");
  	
- 	printf("\n\nEnter your choise(+,-,*,/) : ");
-	scanf(" %d",&op);
  	
- 	start:
- 	if(op == 0)
+ 	while(1)
  	{
- 		return 0;
- 	}
-		
-	printf("Enter the first value a : ");
-	scanf("%f",&a);
+ 		printf("\n\nEnter your choise(+,-,*,/) : ");
+		scanf(" %d",&op);
+	 	
+	 	if(op == 0)
+	 	{
+	 		break ;
+	 	}
+			
+		printf("Enter the first value a : ");
+		scanf("%f",&a);
 			 	
-	printf("Enter the first value b : ");
-	scanf("%f",&b);
-			 	
-	switch(op)
-	{
-		case 1 : sum(a,b);
-			break;
+		printf("Enter the first value b : ");
+		scanf("%f",&b);
+				 	
+		switch(op)
+		{
+			case 1 : sum(a,b);
+				break;
+						
+			case 2 : substraction(a,b);
+				break;
 					
-		case 2 : substraction(a,b);
-			break;
+			case 3 : multiplication(a,b);
+				break;
+						
+			case 4 : division(a,b);
+				break;
 				
-		case 3 : multiplication(a,b);
-			break;
-					
-		case 4 : division(a,b);
-			break;
-					
-		default : printf("You Enter unvalid operator, so it can't process"); 		
+			default : printf("You Enter unvalid operator, so it can't process"); 		
+		}	
 	}
-		
-	goto start;
 	
 	return 0;
 }
