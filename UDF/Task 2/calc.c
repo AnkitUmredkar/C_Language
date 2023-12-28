@@ -2,22 +2,22 @@
 
 void sum(float a,float b)
 {
-	printf("%0.2f + %0.2f = %0.2f",a,b,a+b);
+	printf("%.2f + %.2f = %.2f",a,b,a+b);
 }
 
 void substraction(float a,float b)
 {
-	printf("%0.2f - %0.2f = %0.2f",a,b,a-b);
+	printf("%.2f - %.2f = %.2f",a,b,a-b);
 }
 
 void multiplication(float a,float b)
 {
-	printf("%0.2f * %0.2f = %0.2f",a,b,a*b);
+	printf("%.2f * %.2f = %.2f",a,b,a*b);
 }
 
 void division(float a,float b)
 {
-	printf("%0.2f / %0.2f = %0.2f",a,b,a/b);
+	printf("%.2f / %.2f = %.2f",a,b,a/b);
 }
 
 	
@@ -71,5 +71,3 @@ int main()
 	
 	return 0;
 }
- 	
- 
