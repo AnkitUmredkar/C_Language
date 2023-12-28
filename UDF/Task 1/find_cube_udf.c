@@ -2,19 +2,25 @@
 
 #include<stdio.h>
 
-void cube(int n)
+int cube(int n)
 {
-	printf("\nThe cube of a number is : %d",n*n*n);
+	return n*n*n;
+}
+
+int userinput()
+{
+	int n;
+	
+	printf("Enter the value : ");
+	scanf("%d",&n);
+	
+	cube(n);
 }
 
 int main()
-{
- 	int n;
- 	
- 	printf("Enter the : ");
- 	scanf("%d",&n);
- 	
- 	cube(n);
- 	
+{	
+	printf("\nThe cube is : %d",userinput());
+	
  	return 0;
 }
+
