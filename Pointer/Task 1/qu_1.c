@@ -24,7 +24,7 @@ int main()
 	for(i=n-1; i>=0; i--)
  	{
  		printf("%d ",*ptr);
- 		ptr-=1;
+ 		ptr--;
 	}
  	
  	return 0;
