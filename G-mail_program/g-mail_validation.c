@@ -39,13 +39,13 @@ int main()
 				check=0;
 				for(i=l; i<len; i++)
 				{
-					if(a[i] == b[c])
+					if(a[i] != b[c])
 					{
-						c++;
+						check = 1;
 					}
-					
+					c++;
 				}
-				if(c==10)
+				if(check == 0)
 				{
 					printf("Yes,entered gmail id is valid");
 				}
