@@ -29,9 +29,5 @@ int rocky()
 
 int main()
 {
-//	int final,n=10;
-//	
-//	final = n + part3();
-	
 	printf("%d",rocky());
 }
