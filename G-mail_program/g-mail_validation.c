@@ -51,25 +51,25 @@ int main()
 				}
 				else
 				{
-					printf("Service provider name is not perfact!");
+					printf("Service provider name is not perfact!!");
 					goto start;
 				}
 			}
 			else
 			{
-				printf("Space and special character does not allow!");
+				printf("Space and special character does not allow!!");
 				goto start;
 			}
 		}
 		else
 		{
-			printf("Enter your gmail id in small letter!");
+			printf("Enter your gmail id in small letter!!");
 			goto start;
 		}
 	}
 	else
 	{
-		printf("Enter gmail in this format : ankitumredkar77@gmail.com ");
+		printf("Invalid Gmail ID. Please follow the correct format !!");
 		goto start;
 	}          
 
