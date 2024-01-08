@@ -32,6 +32,7 @@ int checkspechar(char a[])
 	int len = strlen(a);
 	int i,check;
 	check=0;
+	
 	for(i=0; i<len; i++)
 	{
 		if(a[i]>=32 && a[i]<=45 || a[i]==47 || a[i]>=58 && a[i]<=63 || a[i]>=91 && a[i]<=96 || a[i]>=123 && a[i]<=126)
@@ -56,6 +57,7 @@ int checksmall(char a[])
 	int check,i;
 	int len = strlen(a);
 	check=0;
+	
 	for(i=0; i<len; i++)
 	{
 		if(a[i]>='A' && a[i]<='Z')
@@ -79,6 +81,7 @@ int checklength(char a[])
 {
 	int x;
 	int len = strlen(a);
+	
 	if(len>=11 && len<=30)
 	{
 		return 1;
