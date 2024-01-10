@@ -1,6 +1,7 @@
 //1.Write a Program to find the length of a string using a Pointer.
 
 #include<stdio.h>
+#include<string.h>
 
 int main()
 {
