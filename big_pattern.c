@@ -3,7 +3,8 @@
 int main()
 {
  	int i,j,k=1,a=1;
- 	
+
+	
  	for(i=1; i<=10; i++)
  	{
  		for(int l=1; l<i; l++)
