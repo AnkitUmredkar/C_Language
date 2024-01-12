@@ -1,4 +1,4 @@
-//WAP to find a minimum number out of 4 by using nested if else
+//WAP to find a minimum number out of 4 by using nested if else.
 
 #include<stdio.h>
 
