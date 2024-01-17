@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-void main()
+int main()
 {
 	int n,r,org,arm=0;
 	
@@ -26,4 +26,5 @@ void main()
 	{
 		printf("You entered number is not armstrong");
 	}
+	return 0;
 }
