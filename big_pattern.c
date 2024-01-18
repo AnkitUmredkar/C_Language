@@ -26,6 +26,7 @@ int main()
 			k = k + j; 	
 		}
 		a+=i;
+		
 		k=a+i;	
 		printf("\n");
 	}
