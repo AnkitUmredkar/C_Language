@@ -31,4 +31,5 @@ int main()
 	printf("\n\nThe avarage of all elements of array is : %.2f",sum/n);
 	
 	return 0;
+	
 }
