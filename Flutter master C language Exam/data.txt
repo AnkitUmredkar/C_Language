@@ -1,0 +1,16 @@
+
+
+The 1 student details are below 
+Name      : ankit
+Birthdate : 3/2/1967
+Age       : 57
+
+The 2 student details are below 
+Name      : ankit umredkar
+Birthdate : 3/2/1934
+Age       : 90
+
+The 3 student details are below 
+Name      : ankit narendrabhai umredkar
+Birthdate : 2/3/1944
+Age       : 80
