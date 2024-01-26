@@ -50,4 +50,5 @@ int main()
 	printf("\nThe sum of all elements of 2D array is : %d",sum);
 	
 	return 0;
+	
 }
