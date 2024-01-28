@@ -2,6 +2,7 @@
 
 int main()
 {
+	
  	int i,j,k=1,a=1;
 
 	
