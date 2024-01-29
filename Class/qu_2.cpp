@@ -17,10 +17,6 @@ int main()
 	{
 		mm = mm - 60;
 	}
-	else
-	{
-		mm = 60 - mm;
-	}
 	
 	a = (a / 60);
 	hh = (a / 60);
