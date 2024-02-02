@@ -4,6 +4,7 @@
 
 int main()
 {
+	
 	char a;
 	
 	printf("enter char ");
