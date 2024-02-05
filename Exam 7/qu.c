@@ -17,4 +17,5 @@ int main()
  	printf("\nThe value after decrease : %d",n);
  	
  	return 0;
+	
 }
