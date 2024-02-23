@@ -4,6 +4,7 @@
 
 int main()
 {
+	
 	int n,i;
 	float sum=0;
 	
