@@ -48,5 +48,6 @@ int main()
 	}
 	
 	printf("\nThe sum of all anti-diagonal elements is : %d",sum);
+	
 }
 	
