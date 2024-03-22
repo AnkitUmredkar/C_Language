@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 
+
 int main()
 {
 	int i,j,rows,cols,sum = 0,len;
