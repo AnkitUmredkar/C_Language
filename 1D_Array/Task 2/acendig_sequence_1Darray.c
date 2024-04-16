@@ -10,6 +10,7 @@ int main()
 	scanf("%d",&n);
 	
 	int arr[n];
+
 	
 	printf("\nEnter the elements of array\n");
 	
