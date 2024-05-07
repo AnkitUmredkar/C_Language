@@ -30,4 +30,5 @@ int rocky()
 int main()
 {
 	printf("%d",rocky());
+	return 0;
 }
