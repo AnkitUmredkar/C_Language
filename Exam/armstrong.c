@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 
+
 int main()
 {
 	int a,b,c,x,y,n,sum,i;
