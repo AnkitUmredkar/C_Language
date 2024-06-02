@@ -21,4 +21,5 @@ main()
     interest = (p*r*t)/d;
 	
 	printf ("\nThe interest is %.2f" , interest);
+	
 }
