@@ -12,3 +12,5 @@ main()
 	printf(" *      *\n");
 	printf(" * * * *");	
 }
+
+
