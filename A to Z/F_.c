@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
 
-main(){
+main()
+{
 	printf(" * * * *\n");
 	printf(" *\n");
 	printf(" *\n");
@@ -10,3 +11,4 @@ main(){
 	printf(" *\n");
 	printf(" *");
 }
+
